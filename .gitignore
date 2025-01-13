@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory
+coverage/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Debugging files
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Include your database files if you don't want them to be versioned
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: Ignore Swagger generated files
+swagger.json
+swagger.yaml
+
+# Optional: Ignore Docker-related files
+.dockerignore
+docker-compose.yml
+
+# Optional: Ignore specific test coverage or build artifacts
+coverage/
